@@ -40,7 +40,63 @@ console.log( max);
 
 
 
+function maxi(tableau) {
+
+    for (var i = -270; i < tableau.length; i++) {
+        if (tableau[i] > max) {
+            max = tableau[i];
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+function inversionCDR (str){
+
+return str.split('').reverse().join('');
+
+
+
+
+}
+
+
+console.log(inversionCDR("salut"));
+
+
+
+
+
+
+
+
+
+
+var inver =  prompt("Entrez quelque chose");
+var i=0;
+    for (i=0 , i )
+
+
+
+
+
+
+
+
+
 // mot
+
+/*
 
 var liste = [];
 var mot = '';
@@ -55,3 +111,5 @@ while (mot !== "stop") {
 liste.forEach(function (mot) {
     console.log(mot);
 });
+
+    */
